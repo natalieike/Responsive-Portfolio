@@ -120,9 +120,8 @@ footer {
 }
 
 #nav {
-	float: left;
-	margin-right: 30px;
-	margin-left: 40%;
+	float: right;
+	margin-right: 10%;
 	padding: 20px;
 }
 
@@ -218,4 +217,76 @@ input[type=submit]:hover {
 input[type=submit]:active {
     background-color: #4aaaa5;
     opacity: .5;
+}
+
+@media screen and (max-width: 980px){
+	#nav {
+		margin: 0% 5% 0% 0%;
+	}
+
+	#mainBody {
+		width: 45%;
+	}
+
+	#profilePicture {
+		width: 100%;
+		float: none;
+	}
+
+	#contactIcons {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	section {
+		float: none;
+		overflow: auto;
+
+	}
+
+	#mainBody {
+		width: 90%;
+		margin: 15% 5% 5% 5%;
+	}
+
+	#profilePicture {
+		width: 250px;
+		float: left;
+	}
+
+	#contactIcons {
+		width: 90%;
+		margin: 5% 5% 15% 5%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.sticky {
+		position: static;
+		overflow: auto;
+	}
+
+	#mainBody {
+		margin: 5%;
+	}
+
+	#profilePicture {
+		width: 100%;
+		float: none;
+	}
+
+.portfolioImages {
+	width: 90%;
+	margin: 5%;
+}
+
+.textOverlay {
+	width: 90%;
+	margin: 5%;
+}
+
+	#contactIcons {
+		margin: 5%;
+	}
 }
