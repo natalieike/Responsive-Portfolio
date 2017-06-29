@@ -135,7 +135,7 @@ footer {
 }
 
 #mainBody {
-	width: 650px;
+	width: 55%;
 	margin-left: 10%;
 }
 
@@ -152,7 +152,7 @@ footer {
 .portfolioItems {
 	float: left;
 	position: relative;
-	margin: 20px 10px;
+	margin: 3% 3%;
 	overflow: auto;
 }
 
@@ -230,7 +230,7 @@ input[type=submit]:active {
 	}
 
 	#mainBody {
-		width: 45%;
+		width: 50%;
 	}
 
 	#profilePicture {
@@ -238,16 +238,29 @@ input[type=submit]:active {
 		float: none;
 	}
 
-	#contactIcons {
-		width: 35%;
+	.portfolioItems {
+		width: 90%;
+		margin: 5%;
+	}
+
+	.portfolioImages {
+		width: 95%;
+	}
+
+	.textOverlay {
+		width: 95%;
 	}
 }
+
 
 @media screen and (max-width: 768px){
 	section {
 		float: none;
 		overflow: auto;
+	}
 
+	#name {
+		margin-left: 5%;
 	}
 
 	#mainBody {
@@ -258,6 +271,19 @@ input[type=submit]:active {
 	#profilePicture {
 		width: 250px;
 		float: left;
+	}
+
+	.portfolioItems {
+		width: 40%;
+		margin: 5%;
+	}
+
+	.portfolioImages {
+		width: 95%;
+	}
+
+	.textOverlay {
+		width: 95%;
 	}
 
 	#contactIcons {
@@ -272,6 +298,23 @@ input[type=submit]:active {
 		overflow: auto;
 	}
 
+	#name {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 0%;
+	}
+
+	#nav {
+		text-align: center;
+		width: 100%;
+		margin: 0%;
+	}
+
+	.button {
+		padding: 1% 10%;
+	}
+
 	#mainBody {
 		margin: 5%;
 	}
@@ -281,15 +324,20 @@ input[type=submit]:active {
 		float: none;
 	}
 
-.portfolioImages {
-	width: 90%;
-	margin: 5%;
-}
+	.portfolioItems {
+		width: 90%;
+		margin: 5%;
+	}
 
-.textOverlay {
-	width: 90%;
-	margin: 5%;
-}
+	.portfolioImages {
+		width: 90%;
+		margin: 5%;
+	}	
+
+	.textOverlay {
+		width: 90%;
+		margin: 5%;
+	}
 
 	#contactIcons {
 		margin: 5%;
